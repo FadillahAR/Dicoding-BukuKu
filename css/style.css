@@ -1,0 +1,168 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: navy;
+    height: 40px;
+    color:white;
+}
+
+header h1 {
+    font-size: 25px;
+    float: left;
+    padding: 5px;
+}
+
+header h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Home style */
+.about {
+ text-align: center;
+ padding: 10px;  
+}
+
+.about h1{
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.content {
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.content p{
+    font-style: italic;
+    font-size: 1em;
+    padding: 5px;
+    background-color: navy;
+    color: white;
+    
+}
+
+.content p a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+/* Book style */
+.inputbook_section{
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    width: 400px;
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.inputbook_section form{
+    padding: 5px;
+    color: black;
+}
+
+.input{
+    padding: 5px 0px;
+}
+
+.input input{
+    padding: 3px;
+    width: 200px;
+}
+
+.finish{
+    width: 200px;
+}
+
+input[type="submit"]{
+    width: 60px;
+    background-color: navy;
+    color: white;
+}
+
+.book_shelf1{
+    margin: 0 auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 5px;
+    width: 400px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.book_shelf2{
+    margin: 10px auto 0px auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 6px;
+    width: 400px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container{
+    padding:5px;
+    text-align: left;
+}
+
+.inner{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 2px solid;;
+}
+
+.finish-button{
+    background-color:#3CB371;
+    width: 45%;
+    border-radius: 2px;
+    color: white;
+    
+}
+
+.delete-button{
+    background-color:#CD5C5C;
+    width: 45%;
+    border-radius: 2px;
+    margin: 0px 10px;
+    color: white;
+}
+
+.undo-button{
+    background-color:white;
+    width: 45%;
+    border-radius: 2px;
+    color: black;
+}
+
+
+
+
+

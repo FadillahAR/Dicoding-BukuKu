@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BukuKu.id</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="head">
+        <h1><a href="home.html">BukuKu.id</a></h1>
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+            </ul>
+        </nav>
+    </header>   
+    
+    <main>
+        <section class="inputbook_section">       
+            <h1>Input New Book</h1>
+            <form id="inputbook">
+                <div class="input">
+                    <label for="title">Title :</label>
+                    <input type="text" id="title">
+                </div>
+                <div class="input">
+                    <label for="author">Author :</label>
+                    <input type="text" id="author">
+                </div>
+                <div class="input">
+                    <label for="year">Year :</label>
+                    <input type="number" id="year">
+                </div>
+                <input type="submit" value="Save" name="submit">
+            </form>
+        </section>
+
+        <section class="book_shelf1">
+            <h2>Belum selesai dibaca</h2>
+            <div id="uncompleteBookshelfList" class="book_list">
+                
+            </div>
+        </section>
+    
+        <section class="book_shelf2">
+            <h2>Selesai dibaca</h2>
+            <div id="completeBookshelfList" class="book_list">
+                        
+            </div>
+        </section>
+    </main> 
+
+    <script src="../js/book.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/data.js"></script>
+</body>
+</html>
